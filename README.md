@@ -79,6 +79,13 @@ Edit `.env` and configure:
 - `GITHUB_TOKEN`: Required only for GitHub storage mode
 - `GITHUB_REPO`: Your GitHub repository (format: `username/repo`)
 
+5. Set up frontend environment variables:
+
+Create a `.env` file in the `client` directory:
+```env
+VITE_API_URL=http://localhost:5001/api/v1
+```
+
 ### Development
 
 1. Start the backend server (from the `server` directory):

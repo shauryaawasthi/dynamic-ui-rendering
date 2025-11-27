@@ -67,17 +67,25 @@ cd ../client
 npm install
 ```
 
-4. Set up environment variables:
-```bash
-cd ..
-cp .env.example .env
-```
+4. Set up server environment variables:
 
-Edit `.env` and configure:
-- `PORT`: Backend server port (default: 5001)
-- `STORAGE_MODE`: Use `local` for development or `github` for production
-- `GITHUB_TOKEN`: Required only for GitHub storage mode
-- `GITHUB_REPO`: Your GitHub repository (format: `username/repo`)
+Create a `.env` file in the `server` directory:
+```env
+# Server
+PORT=5001
+NODE_ENV=development
+
+# CORS
+CORS_ORIGIN=http://localhost:5173
+
+# Storage mode: "local" or "github"
+STORAGE_MODE=github
+
+# GitHub Storage Settings
+GITHUB_TOKEN="PAT token"
+GITHUB_REPO="repo name"
+GITHUB_BRANCH="branch name"
+```
 
 5. Set up frontend environment variables:
 

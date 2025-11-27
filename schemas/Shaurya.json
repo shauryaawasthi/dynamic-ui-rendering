@@ -1,0 +1,51 @@
+{
+  "schema": [
+    {
+      "type": "div",
+      "header": "User Details",
+      "children": [
+        {
+          "type": "input",
+          "name": "firstName",
+          "placeholder": "Shaurya"
+        },
+        {
+          "type": "input",
+          "name": "lastName",
+          "placeholder": "Awasthi"
+        },
+        {
+          "type": "div",
+          "header": "Address Details",
+          "children": [
+            {
+              "type": "input",
+              "name": "line1",
+              "placeholder": "Address Line 1"
+            },
+            {
+              "type": "input",
+              "name": "line2",
+              "placeholder": "Address Line 2"
+            },
+            {
+              "type": "input",
+              "name": "city",
+              "placeholder": "Palampur"
+            },
+            {
+              "type": "input",
+              "name": "state",
+              "placeholder": "HP"
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "Submit"
+        }
+      ]
+    }
+  ],
+  "createdAt": "2025-11-27T18:43:06.280Z"
+}

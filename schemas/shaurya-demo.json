@@ -1,0 +1,51 @@
+{
+  "schema": [
+    {
+      "type": "div",
+      "header": "User Details",
+      "children": [
+        {
+          "type": "input",
+          "name": "firstName",
+          "placeholder": "Enter shaurya-demo first name"
+        },
+        {
+          "type": "input",
+          "name": "lastName",
+          "placeholder": "Enter last name"
+        },
+        {
+          "type": "div",
+          "header": "Address Details",
+          "children": [
+            {
+              "type": "input",
+              "name": "line1",
+              "placeholder": "Address Line 1"
+            },
+            {
+              "type": "input",
+              "name": "line2",
+              "placeholder": "Address Line 2"
+            },
+            {
+              "type": "input",
+              "name": "city",
+              "placeholder": "City"
+            },
+            {
+              "type": "input",
+              "name": "state",
+              "placeholder": "State"
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "label": "Submit"
+        }
+      ]
+    }
+  ],
+  "createdAt": "2025-11-27T19:57:14.828Z"
+}

@@ -7,12 +7,12 @@
         {
           "type": "input",
           "name": "firstName",
-          "placeholder": "Shaurya"
+          "placeholder": "shauryar first name"
         },
         {
           "type": "input",
           "name": "lastName",
-          "placeholder": "Awasthi"
+          "placeholder": "Enter last name"
         },
         {
           "type": "div",
@@ -31,12 +31,12 @@
             {
               "type": "input",
               "name": "city",
-              "placeholder": "Palampur"
+              "placeholder": "City"
             },
             {
               "type": "input",
               "name": "state",
-              "placeholder": "HP"
+              "placeholder": "State"
             }
           ]
         },
@@ -47,5 +47,5 @@
       ]
     }
   ],
-  "createdAt": "2025-11-27T18:43:06.280Z"
+  "createdAt": "2025-11-27T19:55:31.920Z"
 }
